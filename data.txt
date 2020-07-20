@@ -7,9 +7,9 @@ Id auto - numero - INT - primary key - NOT NULL
 Casa automobilistica - stringa - VARCHAR(50) - NOT NULL
 Modello auto - stringa - VARCHAR(50) - NOT NULL
 Nazionalità auto/casa automobilistica - stringa VARCHAR(30)
-Immagine - 
+Immagine - stringa - VARCHAR(50) - DEFAULT
 Descrizione auto - stringa - TEXT
 Prezzo - numero - float (9,2) - NOT NULL
 Anno di immatricolazione - numero - YEAR - NOT NULL
 Km auto - numero - medium - NOT NULL
-Città (dove si trova auto)
+Città (dove si trova auto) - stringa - VARCHAR(30)
