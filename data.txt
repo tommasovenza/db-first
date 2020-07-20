@@ -3,7 +3,7 @@ Struttura tabella Auto usate
 
 
 Colonne:
-Id auto - numero - INT - primary key - NOT NULL
+Id auto - numero - INT - primary key - NOT NULL - AUTO INCREMENT - UNIQUE
 Casa automobilistica - stringa - VARCHAR(50) - NOT NULL
 Modello auto - stringa - VARCHAR(50) - NOT NULL
 Nazionalità auto/casa automobilistica - stringa VARCHAR(30)
